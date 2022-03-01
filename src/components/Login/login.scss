@@ -1,0 +1,27 @@
+.color {
+  color: red;
+}
+
+.login-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  .content {
+    height: 300px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 20px #ccc;
+    .brand-logo {
+      height: 50px;
+      .brand-logo-icon{
+          font-size: 35px;
+          color: #52c41a;
+      }
+    }
+  }
+}
