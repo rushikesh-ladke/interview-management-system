@@ -28,7 +28,7 @@ const Login = () => {
             }
           />
           <div className='generic-padding'></div>
-          <Input.Password placeholder='input password' />
+          <Input.Password placeholder={loginPageText.password} />
           <div className='generic-padding'></div>
           <Button type='primary' block shape='round'>
           {loginPageText.login}
