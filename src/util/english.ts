@@ -1,5 +1,6 @@
 export const loginPageText = {
     email : `Enter Email`,
     extraInfo : `Enter Email Address for Login`,
-    login: `Login`
+    login: `Login`,
+    password: `Enter Password`,
 }
